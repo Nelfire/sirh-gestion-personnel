@@ -34,7 +34,7 @@ public class EditerCollaborateurController extends HttpServlet {
 			resp.getWriter().write("<h2>Edition de collaborateur</h2><br><br> Matricule : Un matricule est attendu");
 		} else // Cas 2 : matricule renseigné
 		{
-			// Code 200
+			// Code 200 
 			resp.setStatus(200);
 			// Affichage
 			resp.getWriter().write("<h2>Edition de collaborateur</h2><br><br> Matricule : " + matricule);
